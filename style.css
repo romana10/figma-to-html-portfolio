@@ -1,0 +1,369 @@
+h1 {
+    font-family: 'Playfair Display', serif;
+
+}
+
+h2,h3,h4,h5,h6,p {
+    font-family: 'Nunito', sans-serif;
+
+}
+
+button:hover {
+    background-color: #FFA500;   
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fffff9;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.nav-logo img {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+
+
+.nav-menu {
+    position: absolute;
+    right: 0;
+    margin-top: -15px;
+    z-index: 10;
+   
+}
+
+
+.nav-menu ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: var(--font-high-emphasis, #25282B);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.hero-section .content {
+    width: 480px;
+    display: flex;
+    margin: 80px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    
+}
+
+.hero-section .content h3,
+.hero-section .content h1,
+.hero-section .content p {
+    margin: 0; 
+}
+
+
+.hero-section .content h3 {
+    color:  #FDC435;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.hero-section .content h1 {
+    color:  #333;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%; 
+}
+
+.hero-section .content p {
+    color: #828282;
+    font-family: Nunito;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px; 
+}
+
+.hero-bg-img {
+    background-image: url("images/hero-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 672px;
+    height: 625px;
+    position: absolute;
+    margin-top: -305px;
+}
+
+
+.hero-section .content .row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px; 
+}
+
+
+.btn-1 button {
+    display: flex;
+    padding: 8px 24px;
+    align-items: flex-start;
+    border: 2px solid #fdc435;
+    border-radius: 8px;
+    background: #FDC435;
+    color:  #25282B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    cursor: pointer;
+}
+
+
+.btn-1 button:hover {
+    background-color: #FFA500; 
+}
+
+
+.btn-2 button {
+    display: flex;
+    padding: 8px 24px;
+     margin-right: 120px;
+    align-items: flex-start;
+    color:  #25282B;
+    border-radius: 8px;
+    border: 1px solid  #25282B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    cursor: pointer;
+}
+
+
+.about-img img {
+    width: 350px;
+    height: 350px;
+    margin: 80px 0;
+    padding: 50px;
+}
+
+.about-content {
+    width: 500px;
+}
+
+.about-content h1 {
+    color: #333;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.about-content p {
+    color: #828282;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+
+.project .col h1 {
+    color: #25282B;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.container .p-cotent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {
+    width: 100px;
+    height: 4px;
+    margin-bottom: 80px;
+    border-radius: 2px;
+    background: #FDC435;
+}
+
+.projects .container .row {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-left: 130px;
+    margin-bottom: 80px;
+}
+
+
+.project-box {
+    display: flex;
+    width: 992px;
+    height: 524px;
+    align-items: flex-start;
+    border-radius: 24px;
+    box-shadow: 0px 6px 64px 0px rgba(112, 144, 176, 0.10);
+}
+
+
+.project-1-img {
+    background-image: url("images/Project-1.jpg");
+    width: 496px;
+    height: 524px;
+    flex-shrink: 0;
+    border-radius: 0 24px 24px 0;
+}
+
+.project-2-img {
+    background-image: url("images/Project-2.jpg");
+    width: 496px;
+    height: 524px;
+    flex-shrink: 0;
+    border-radius: 24px 0 0 24px;
+}  
+
+
+.project-3-img {
+    background-image: url("images/Project-3.jpg");
+    width: 496px;
+    height: 524px;
+    flex-shrink: 0;
+    border-radius: 0 24px 24px 0;
+}
+
+.project-box .content {
+    display: flex;
+    width: 405px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 80px 50px 120px 50px;
+}
+
+.project-box .content h1 {
+    color:  #25282B;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 150%; 
+}
+
+.project-box .content p {
+    color: #828282;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.project-box button {
+    display: flex;
+    padding: 8px 24px;
+    align-items: flex-start;
+    border-radius: 24px;
+    border: 1px solid #25282B;
+    color:  #25282B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%; 
+    cursor: pointer;
+}
+
+
+.form .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 20px;
+    border-radius: 10px; 
+    background-color: white; 
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.input-group {
+    width: 95%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color:  #25282B;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.submit-btn {
+    align-self: flex-end;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    background-color: #FDC435;
+    color: #25282B;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.footer .row {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: -20px;
+}
+
